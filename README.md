@@ -16,6 +16,11 @@ Let's go...
 ofcause)\
 Default password is: ```piCore``` 
 
+For the stuff to compile later, we need some thing's loaded, so execute the 4 commands below :\
+```tce-load -wo compiletc.tcz``` - Download and set as ondemand on piCore\
+```tce-load -i compiletc.tcz```  - Install on session only\
+```tce-load -wo python3.6-dev```
+```tce-load -i python3.6-dev```
 
 
 
