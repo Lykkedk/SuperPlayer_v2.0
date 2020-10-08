@@ -10,7 +10,14 @@ Let's go...
 
 ![C_DSP Logo](/C_DSP.png)
 
-Let's start with logging into our Raspberry Pi\
+### Let's start with logging into our Raspberry Pi
+
+```ssh tc@192.168.1.95``` (with the right ip number
+ofcause)\
+Default password is: ```piCore``` 
+
+
+
 
 
 
