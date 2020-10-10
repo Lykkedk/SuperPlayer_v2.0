@@ -22,7 +22,7 @@ For the stuff to compile later, we need some thing's loaded, so execute the 4 co
 ```tce-load -wo python3.6-dev```\
 ```tce-load -i python3.6-dev```\
 The command tce-load -wo, downloads and saves the application as an ondemand item.\
-Tce-load -i installs it. This way the applications are not loaded when the Pi boot's, but it's possible to load them manually.\ - Saving ram is good!\
+Tce-load -i installs it. This way the applications are not loaded when the Pi boot's, but it's possible to load them manually. - Saving ram is good!
 
 Next install Python's setuptool, so execute :\
 ```sudo -H pip3 install setuptools```
