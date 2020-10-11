@@ -17,8 +17,7 @@ piCorePlayer (pCP) distribution.
 
 You do it in the [main] panel on the webinterface http://192.168.1.95/cgi-bin/main.cgi (with correct IP ofcause)
 
-
-
+![ResizeFS Logo](/ResizeFS.png)
 
 ### Let's start with logging into our Raspberry Pi
 
