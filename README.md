@@ -166,7 +166,7 @@ sleep 1
 
 ### If everything is well, we are ready to see if it's working
 
-```sudo filetool.sh -b```
+```sudo filetool.sh -b```\
 ```sudo reboot```
 
 ### [X] your'e fingers and hope all is working
