@@ -173,7 +173,7 @@ sleep 1
 
 When the Pi is done rebooting, login to it like ```http://192.168.1.95:5000/gui/index.html```
 
-I did a clean/fresh install where i installed the SuperPlayer and afterwards did the upgrade to SuperPlayer_v2.0 to test it on my testrig.
+I did a clean/fresh install where i installed the SuperPlayer (https://github.com/Lykkedk/SuperPlayer) and afterwards did the upgrade to SuperPlayer_v2.0 to test it on my testrig.
 Everything is working as expected, so good luck.
 
 Jesper (lykkedk at diyaudio.com)
