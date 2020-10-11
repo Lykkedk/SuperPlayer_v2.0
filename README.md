@@ -144,7 +144,8 @@ Remove the old exec files ```rm exec*```\
 ```echo /home/tc/StartServer.sh >> /opt/bootlocal.sh```\
 The command ```cat /opt/bootlocal.sh``` should look like this:\
 ```
-startup commands here
+#!/bin/sh
+# put other system startup commands here
 
 GREEN="$(echo -e '\033[1;32m')"
 
@@ -159,6 +160,7 @@ sleep 1
 /usr/local/etc/init.d/pcp_startup.sh 2>&1 | tee -a /var/log/pcp_boot.log
 #pCPstop------
 /home/tc/StartServer.sh
+
 ```
 
 
