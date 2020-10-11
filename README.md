@@ -25,7 +25,7 @@ You do it in the [main] panel on the webinterface http://192.168.1.95/cgi-bin/ma
 ofcause)\
 Default password is: ```piCore``` 
 
-### Expand filesystem on piCorePlayer
+### Install and load some compile stuff
 
 For the stuff to compile later, we need some thing's loaded, so execute the 4 commands below :\
 ```tce-load -wo compiletc.tcz```\
