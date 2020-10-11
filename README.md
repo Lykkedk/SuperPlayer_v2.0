@@ -45,7 +45,7 @@ If you execute ```cat /opt/.filetool.lst``` afterwards, you can see the line at 
 
 Now execute ```sudo filetool.sh -b``` - Saves our stuff.
 
-Now type and execute the following commands (a lot i know)\ 
+Now type and execute the following commands\ 
 ```cd /home/tc/DSP_Engine```\
 ```mv camilladsp OLD_camilladsp``` Saves the old camilladsp engine.\
 ```rm camilladsp-linux-armv7.tar.gz``` Removes the old downloaded version if it's there. Nevermind if you got error file dosent exist, it's okay.\
