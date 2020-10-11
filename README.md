@@ -39,8 +39,8 @@ Next install Python's setuptool, so execute :\
 ```sudo -H pip3 install setuptools```
 
 When this is done, try to do ```ls -all /usr/local/lib/python3.6/site-packages```
-The output shows where all the Python stuff are located; this location/dir we have to make sure is persistent through reboot's.
-This is done by executing ```usr/local/lib/python3.6/site-packages >> /opt/.filetool.lst```
+The output shows where all the Python stuff are located; this location/dir we have to make sure is persistent through reboot's.\
+This is done by executing ```usr/local/lib/python3.6/site-packages >> /opt/.filetool.lst```\
 If you execute ```cat /opt/.filetool.lst``` afterwards, you can see the line at the bottom of the list... Good then ;-)
 
 
