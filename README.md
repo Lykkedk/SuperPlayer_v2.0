@@ -67,7 +67,15 @@ Now type and execute the following commands:\
 ```unzip camillagui.zip```\
 ```rm camillagui.zip```
 
+```cd /home/tc/DSP_Engine/pycamilladsp-0.4.0```\
+```sudo -H pip3 install .```
 
+```cd /home/tc/DSP_Engine```\
+```sudo -H pip3 install aiohttp```
+
+### Come on... take a short break! Coffee? Beer? ...
+
+``````
 ``````
 ``````
 
