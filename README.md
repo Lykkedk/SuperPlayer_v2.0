@@ -93,6 +93,40 @@ Save it when done with [ctrl] + [o], and exit nano with [ctrl] + [x]
 Let's save it all again... ```sudo filetool.sh -b```\
 ```cd /home/tc/```
 
+Now on your'e laptop or whatever git clone the SuperPlayer 2.\
+```git clone https://github.com/Lykkedk/SuperPlayer_v2.0.git```
+
+Then transfer the files to the pCP/SuperPlayer Raspberry pi (/home/tc directory) with SCP, midnight-commander or like.
+
+The /home/tc directory should look like this now:\
+```tc@piCorePlayer:~$ ls -all /home/tc
+total 72
+drwxr-s---    5 tc       staff          440 Oct 11 13:15 ./
+drwxrwxr-x    3 root     staff           60 Jan  6  2017 ../
+drwxr-xr-x    2 tc       staff           40 Jun  6 17:29 .X.d/
+-rw-r--r--    1 tc       staff          114 Jun  6 17:29 .alsaequal.presets
+-rw-rw-r--    1 tc       staff         2579 Oct 11 13:16 .ash_history
+-rw-r--r--    1 tc       staff         1016 Jun  6 17:29 .ashrc
+drwxr-s---    3 tc       staff           60 Jan  6  2017 .local/
+-rw-rw-r--    1 tc       staff          920 Jun  9  2019 .profile
+-rwxr-xr-x    1 tc       staff         3387 Oct 11 11:24 CamillaDSP.sh
+drwxr-sr-x    5 tc       staff          140 Oct 11 12:34 DSP_Engine/
+-rw-r--r--    1 tc       staff          178 Oct 11 13:09 StartServer.sh
+-rw-r--r--    1 tc       staff          221 Oct 11 13:06 exec_44100.py
+-rw-r--r--    1 tc       staff          221 Oct 11 13:06 exec_48000.py
+-rw-r--r--    1 tc       staff          221 Oct 11 13:06 exec_88200.py
+-rw-r--r--    1 tc       staff          221 Oct 11 13:06 exec_96000.py
+-rwxr-xr-x    1 tc       staff         6931 Oct 11 11:24 filter.sh
+-rw-r--r--    1 tc       staff          572 Oct 11 13:06 null_44100.yml
+-rw-r--r--    1 tc       staff          572 Oct 11 13:06 null_48000.yml
+-rw-r--r--    1 tc       staff          572 Oct 11 13:06 null_88200.yml
+-rw-r--r--    1 tc       staff          572 Oct 11 13:09 null_96000.yml
+-rwxr-xr-x    1 tc       staff         2135 Jun  6 17:29 pcp-powerbutton.sh
+-rwxr-xr-x    1 tc       staff          713 Jun  6 17:29 powerscript.sh
+```
+
+
+
 
 
 
