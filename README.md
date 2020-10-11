@@ -74,7 +74,6 @@ Now type and execute the following commands:\
 
 ```cd /home/tc/DSP_Engine```\
 ```sudo -H pip3 install aiohttp```\
-```sudo filetool.sh -b```
 
 ### Come on... take a short break! Coffee? Beer? ...
 
@@ -91,7 +90,12 @@ coeff_dir: "/home/tc/DSP_Engine/filters"
 ```
 Save it when done with [ctrl] + [o], and exit nano with [ctrl] + [x]
 
-Let's save it all again... ```sudo filetool.sh -b```
+Let's save it all again... ```sudo filetool.sh -b```\
+```cd /home/tc/```
+
+
+
+
 
 
 
