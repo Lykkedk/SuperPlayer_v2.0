@@ -132,8 +132,9 @@ Now cd to the filter's directory ```/home/tc/DSP_Engine/filters```
 
 ### Be aware before doing the next command, preserve if you have some special exec's there!
 
-Remove the old exec files ```rm exec*```\
-```cp /home/tc/exec* /home/tc/DSP_Engine/filters```
+Remove the old exec files\
+```rm exec*```\
+```cp /home/tc/exec* /home/tc/DSP_Engine/filters```\
 ```rm /home/tc/exec*```
 
 ### Finishing it all up
