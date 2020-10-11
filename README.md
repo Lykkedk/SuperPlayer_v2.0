@@ -19,7 +19,7 @@ You do it in the [main] panel on the webinterface http://192.168.1.95/cgi-bin/ma
 
 ![ResizeFS Logo](/ResizeFS.png)
 
-### Let's start with logging into our Raspberry Pi
+### Let's go then... start with logging into your'e Raspberry Pi now
 
 ```ssh tc@192.168.1.95``` (with the right ip number
 ofcause)\
