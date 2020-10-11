@@ -98,10 +98,10 @@ Now on your'e laptop or whatever git clone the SuperPlayer 2.\
 
 Then transfer the following 5 files to the pCP/SuperPlayer Raspberry pi (/home/tc directory) with SCP, midnight-commander or like.
 ```
-StartServer.sh\
-exec_44100.py\
-exec_48000.py\
-exec_88200.py\
+StartServer.sh
+exec_44100.py
+exec_48000.py
+exec_88200.py
 exec_96000.py
 ```
 
@@ -132,9 +132,36 @@ Now cd to the filter's directory ```/home/tc/DSP_Engine/filters```
 
 ### Be aware before doing the next command, preserve if you have some special exec's there!
 
-Remove the old exec files ```rm exec*```
+Remove the old exec files ```rm exec*```\
+```cp /home/tc/exec* /home/tc/DSP_Engine/filters```
+```rm /home/tc/exec*```
 
-``````
+### Finishing it all up
+
+```cd /home/tc```
+
+```chmod + x StartServer.sh```
+```echo /home/tc/StartServer.sh >> /opt/bootlocal.sh```
+The command ```cat /opt/bootlocal.sh``` should look like this:\
+```
+startup commands here
+
+GREEN="$(echo -e '\033[1;32m')"
+
+echo
+echo "${GREEN}Running bootlocal.sh..."
+
+modprobe snd_aloop
+/home/tc/CamillaDSP.sh start
+sleep 1
+
+#pCPstart------
+/usr/local/etc/init.d/pcp_startup.sh 2>&1 | tee -a /var/log/pcp_boot.log
+#pCPstop------
+/home/tc/StartServer.sh
+```
+
+
 
 
 
