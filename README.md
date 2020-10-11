@@ -52,12 +52,24 @@ Now type and execute the following commands (a lot i know)\
 
 ```wget https://github.com/HEnquist/camilladsp/releases/download/v0.4.0-beta3/camilladsp-linux-armv7.tar.gz```\
 ```tar -xf camilladsp-linux-armv7.tar.gz```\
-```chmod +x camilladsp```\
+```chmod +x camilladsp```
 
 ```./camilladsp -V``` Should now show version CamillaDSP 0.4.0\
+```rm camilladsp-linux-armv7.tar.gz```
 
-```cat /opt/.filetool.lst```
+```wget https://github.com/HEnquist/pycamilladsp/archive/v0.4.0.zip```\
+```unzip v0.4.0.zip```\
+```rm v0.4.0.zip```
 
+```mkdir camillagui```\
+```cd camillagui```\
+```wget https://github.com/HEnquist/camillagui-backend/releases/download/v0.4.2/camillagui.zip```\
+```unzip camillagui.zip```\
+```rm camillagui.zip```
+
+
+``````
+``````
 
 
 
