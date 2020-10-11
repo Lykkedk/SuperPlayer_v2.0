@@ -23,7 +23,8 @@ You do it in the [main] panel on the webinterface http://192.168.1.95/cgi-bin/ma
 
 ```ssh tc@192.168.1.95``` (with the right ip number
 ofcause)\
-Default password is: ```piCore``` 
+Default password is: ```piCore```\
+Killem' all : ```sudo killall squeezelite-custom``` & ```sudo killall camilladsp```
 
 ### Install and load some compile & Python stuff
 
