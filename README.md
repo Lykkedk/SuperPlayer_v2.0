@@ -143,7 +143,7 @@ Remove the old exec files\
 
 ```chmod + x StartServer.sh```\
 ```echo /home/tc/StartServer.sh >> /opt/bootlocal.sh```\
-The command ```cat /opt/bootlocal.sh``` should look like this:\
+The command ```cat /opt/bootlocal.sh``` should look like this:
 ```
 #!/bin/sh
 # put other system startup commands here
