@@ -81,7 +81,7 @@ Now type and execute the following commands:\
 ```cd /home/tc/DSP_Engine/camillagui```\
 ```nano config/camillagui.yml```
 
-Edit the file so it look's like this :\
+Edit the file so it look's like this :
 ```---
 camilla_host: "0.0.0.0"
 camilla_port: 3011
@@ -90,6 +90,11 @@ config_dir: "/home/tc/DSP_Engine/filters"
 coeff_dir: "/home/tc/DSP_Engine/filters"
 ```
 Save it when done with [ctrl] + [o], and exit nano with [ctrl] + [x]
+
+Let's save it all again... ```sudo filetool.sh -b```
+
+
+
 
 
 
