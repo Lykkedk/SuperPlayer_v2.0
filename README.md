@@ -10,11 +10,23 @@ Let's go...
 
 ![C_DSP Logo](/C_DSP.png)
 
+### Expand filesystem on piCorePlayer
+
+What i did not mention in the original SuperPlayer howto, was that one have to be sure to expand the filesystem on the\
+piCorePlayer (pCP) distribution.
+
+You do it in the [main] panel on the webinterface http://192.168.1.95/cgi-bin/main.cgi (with correct IP ofcause)
+
+
+
+
 ### Let's start with logging into our Raspberry Pi
 
 ```ssh tc@192.168.1.95``` (with the right ip number
 ofcause)\
 Default password is: ```piCore``` 
+
+### Expand filesystem on piCorePlayer
 
 For the stuff to compile later, we need some thing's loaded, so execute the 4 commands below :\
 ```tce-load -wo compiletc.tcz```\
