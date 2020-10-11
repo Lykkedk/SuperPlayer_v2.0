@@ -73,7 +73,7 @@ Now type and execute the following commands:\
 ```sudo -H pip3 install .```
 
 ```cd /home/tc/DSP_Engine```\
-```sudo -H pip3 install aiohttp```\
+```sudo -H pip3 install aiohttp```
 
 ### Come on... take a short break! Coffee? Beer? ...
 
