@@ -96,7 +96,13 @@ Let's save it all again... ```sudo filetool.sh -b```\
 Now on your'e laptop or whatever git clone the SuperPlayer 2.\
 ```git clone https://github.com/Lykkedk/SuperPlayer_v2.0.git```
 
-Then transfer the files to the pCP/SuperPlayer Raspberry pi (/home/tc directory) with SCP, midnight-commander or like.
+Then transfer the following 5 files to the pCP/SuperPlayer Raspberry pi (/home/tc directory) with SCP, midnight-commander or like.
+```StartServer.sh\
+exec_44100.py\
+exec_48000.py\
+exec_88200.py\
+exec_96000.py
+```
 
 The /home/tc directory should look like this now:
 ```tc@piCorePlayer:~$ ls -all /home/tc
@@ -117,10 +123,6 @@ drwxr-sr-x    5 tc       staff          140 Oct 11 12:34 DSP_Engine/
 -rw-r--r--    1 tc       staff          221 Oct 11 13:06 exec_88200.py
 -rw-r--r--    1 tc       staff          221 Oct 11 13:06 exec_96000.py
 -rwxr-xr-x    1 tc       staff         6931 Oct 11 11:24 filter.sh
--rw-r--r--    1 tc       staff          572 Oct 11 13:06 null_44100.yml
--rw-r--r--    1 tc       staff          572 Oct 11 13:06 null_48000.yml
--rw-r--r--    1 tc       staff          572 Oct 11 13:06 null_88200.yml
--rw-r--r--    1 tc       staff          572 Oct 11 13:09 null_96000.yml
 -rwxr-xr-x    1 tc       staff         2135 Jun  6 17:29 pcp-powerbutton.sh
 -rwxr-xr-x    1 tc       staff          713 Jun  6 17:29 powerscript.sh
 ```
