@@ -38,8 +38,10 @@ Tce-load -i installs it. This way the applications are not loaded when the Pi bo
 Next install Python's setuptool, so execute :\
 ```sudo -H pip3 install setuptools```
 
+When this is done, try to do ```ls -all /usr/local/lib/python3.6/site-packages```
+The output shows where all the Python stuff are located; this location/dir we have to make sure is persistent through reboot's.
 
-```tce-load -i python3.6-dev```
+
 
 
 
