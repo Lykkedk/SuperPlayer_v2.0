@@ -97,7 +97,8 @@ Now on your'e laptop or whatever git clone the SuperPlayer 2.\
 ```git clone https://github.com/Lykkedk/SuperPlayer_v2.0.git```
 
 Then transfer the following 5 files to the pCP/SuperPlayer Raspberry pi (/home/tc directory) with SCP, midnight-commander or like.
-```StartServer.sh\
+```
+StartServer.sh\
 exec_44100.py\
 exec_48000.py\
 exec_88200.py\
