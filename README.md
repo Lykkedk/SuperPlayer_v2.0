@@ -98,7 +98,7 @@ Now on your'e laptop or whatever git clone the SuperPlayer 2.\
 
 Then transfer the files to the pCP/SuperPlayer Raspberry pi (/home/tc directory) with SCP, midnight-commander or like.
 
-The /home/tc directory should look like this now:\
+The /home/tc directory should look like this now:
 ```tc@piCorePlayer:~$ ls -all /home/tc
 total 72
 drwxr-s---    5 tc       staff          440 Oct 11 13:15 ./
@@ -125,7 +125,13 @@ drwxr-sr-x    5 tc       staff          140 Oct 11 12:34 DSP_Engine/
 -rwxr-xr-x    1 tc       staff          713 Jun  6 17:29 powerscript.sh
 ```
 
+Now cd to the filter's directory ```/home/tc/DSP_Engine/filters```\
 
+### Be aware before doing the next command, preserve if you have some special exec's there!
+
+Remove the old exec files ```rm exec*```
+
+``````
 
 
 
