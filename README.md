@@ -44,6 +44,8 @@ Tce-load -i installs it. This way the applications are not loaded when the Pi bo
 Next install Python's setuptool, so execute :\
 ```sudo -H pip3 install setuptools```
 
+*pip3 install complain You are using pip version 10.0.1, however version 20.2.3 is available... bla.. bla.. nevermind that*
+
 When this is done, try to do ```ls -all /usr/local/lib/python3.6/site-packages```
 The output shows where all the Python stuff are located; this location/dir we have to make sure is persistent through reboot's.\
 This is done by executing ```echo usr/local/lib/python3.6/site-packages >> /opt/.filetool.lst```\
@@ -145,7 +147,7 @@ Remove the old exec files\
 
 ```cd /home/tc```
 
-```chmod + x StartServer.sh```\
+```chmod +x StartServer.sh```\
 ```echo /home/tc/StartServer.sh >> /opt/bootlocal.sh```\
 The command ```cat /opt/bootlocal.sh``` should look like this:
 ```
