@@ -127,7 +127,7 @@ drwxr-sr-x    5 tc       staff          140 Oct 11 12:34 DSP_Engine/
 -rwxr-xr-x    1 tc       staff          713 Jun  6 17:29 powerscript.sh
 ```
 
-Now cd to the filter's directory ```/home/tc/DSP_Engine/filters```\
+Now cd to the filter's directory ```/home/tc/DSP_Engine/filters```
 
 ### Be aware before doing the next command, preserve if you have some special exec's there!
 
