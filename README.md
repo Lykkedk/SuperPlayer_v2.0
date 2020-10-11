@@ -43,6 +43,8 @@ The output shows where all the Python stuff are located; this location/dir we ha
 This is done by executing ```echo usr/local/lib/python3.6/site-packages >> /opt/.filetool.lst```\
 If you execute ```cat /opt/.filetool.lst``` afterwards, you can see the line at the bottom of the list... Good then ;-)
 
+```sudo filetool.sh -b``` - Saves our stuff.
+
 
 
 
