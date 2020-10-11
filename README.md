@@ -1,5 +1,5 @@
 # SuperPlayer_v2.0 
-*The guide is not done yet, so please don't use it* 
+*The guide is done, so please try it out and report back* 
 
 ## This guide is meant as an upgrade guide to my SuperPlayer to use newer versions of CamillaDSP. So i assume that you have an existing SuperPlayer working!?
 
