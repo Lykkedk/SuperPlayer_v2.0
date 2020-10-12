@@ -2,6 +2,8 @@
 
 ## This guide is meant as an upgrade guide to my SuperPlayer to use newer versions of CamillaDSP. So i assume that you have an existing SuperPlayer working!?
 
+*Help / thread here on diyaudio https://www.diyaudio.com/forums/pc-based/361429-superplayer-ugly-hacked-squeezelite-samplerate-auto-switching-machine.html#post6372682*
+
 *The guide is done, so please try it out and report back*\
 *The upgrade uses Henrik's (the CamillaDSP developer) version which gives us a nice webinterface, but without the plotting for now*\
 *See the original SuperPlayer on my github for background and story etc...*\
