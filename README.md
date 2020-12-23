@@ -1,3 +1,6 @@
+
+# Deprecated - But hey it still works!
+
 # SuperPlayer_v2.0 
 
 ## This guide is meant as an upgrade guide to my SuperPlayer to use newer versions of CamillaDSP. So i assume that you have an existing SuperPlayer working!?
